@@ -1,0 +1,54 @@
+#carousel-bg {
+    background-image: url("images/hot-gadgets/bg-1.png");
+    /* background-color: black; */
+    /* height: 50%; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 20px;
+}
+.navbar-logo {
+    width: 100px;
+}
+ .buy-now-btn {
+    border: none;
+    background-image: linear-gradient(to left,#0d6efd, #6f42c1);
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.buy-now-btn::after {
+    content: "➤";
+    margin-left: 6px;
+}
+.carousel-text-content p, .card p {
+    color: gray;
+}
+.carousel-indicators [data-bs-target] {
+    width: 18px;
+    height: 6px;
+    background-color: sandybrown;
+    border-radius: 8px;
+}
+.card {
+    border: none;
+}
+.card-footer {
+    border-top: none;
+    background-color: white;
+}
+.see-all-btn {
+    text-decoration: none;
+    color: salmon;
+}
+.categories-border {
+    width: 90px;
+    height: 6px;
+    border-radius: 8px;
+    margin: 0 auto;
+    background-image: linear-gradient(to left, sandybrown, orange);
+}
+
+
